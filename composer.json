@@ -1,0 +1,27 @@
+{
+    "name": "ybzc.gg/laravel-pay",
+    "authors": [
+        {
+            "name": "lele",
+            "email": "ybzc.gg@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0.2",
+        "illuminate/support": "^9.19",
+        "ybzc.gg/laravel-adminlte-user": "dev-main",
+        "ybzc.gg/laravel-base": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ybzc\\Laravel\\Pay\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ybzc\\Laravel\\Pay\\PayServiceProvider"
+            ]
+        }
+    }
+}
